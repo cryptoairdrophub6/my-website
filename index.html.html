@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Testnet Offer</title>
+    <style>
+        /* Global Styling */
+        body {
+            font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            margin: 0;
+            padding: 0;
+            color: white;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 50px 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+            animation: fadeInUp 2s ease-in-out forwards;
+        }
+
+        /* Notice Board */
+        #notice-board {
+            background-color: #ff9800;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            text-transform: uppercase;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+            padding: 10px;
+            font-family: 'Georgia', serif;
+        }
+
+        #notice-box {
+            display: inline-block;
+            background-color: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            font-size: 24px;
+            color: #ffeb3b;
+            font-family: 'Georgia', serif;
+            animation: bounceIn 1s ease-out;
+        }
+
+        #scrolling-notice {
+            display: inline-block;
+            animation: scroll-left 10s linear infinite;
+            padding-right: 100%;
+            font-size: 18px;
+            color: black; /* Change the text color to black */
+        }
+
+        @keyframes scroll-left {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        /* Testnet Offer Section */
+        .offer-section {
+            margin: 40px auto;
+            width: 80%;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            animation: zoomIn 2s ease-in-out;
+            text-align: left;
+        }
+
+        .offer-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            animation: fadeInUp 2s ease-in-out forwards;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes zoomIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes bounceIn {
+            0% { opacity: 0; transform: translateY(-100px); }
+            60% { opacity: 1; transform: translateY(30px); }
+            80% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+
+        /* Footer */
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            margin-top: 50px;
+            text-align: center;
+            font-size: 18px;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        /* Links Styling */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 22px;
+            margin: 10px 0;
+            font-weight: bold;
+            color: #ffeb3b;
+        }
+
+        li a {
+            color: #ff5722;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        li a:hover {
+            color: #ff9800;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Exclusive Testnet Offer!</h1>
+    </header>
+
+    <!-- Moving Notice Board -->
+    <div id="notice-board">
+        <span id="notice-box">NOTICE:</span>
+        <div id="scrolling-notice">
+            <span> Wait for Latest Notice and stay with us.</span>
+        </div>
+    </div>
+
+    <!-- Testnet Offer Section -->
+    <div class="offer-section">
+        <h2>Testnet Offer Links:</h2>
+        <ul>
+            <li><a href="https://app.getgrass.io/register?referralCode=WvQBjLEA-PgBINK" target="_blank">🌱 Grass</a></li>
+            <li><a href="https://app.nodepay.ai/register?ref=9uDuPgq0mtoaKzq" target="_blank">💳 Nodepay</a></li>
+            <li><a href="https://zero.kaisar.io/register?ref=ZNNGas552" target="_blank">👑 Kaisar</a></li>
+            <li><a href="https://bless.network/dashboard?ref=958J80" target="_blank">✨ Bless</a></li>
+            <li><a href="https://eragon.gg/sign-in?r=EGR0P2GCFX" target="_blank">🏰 Eragon</a></li>
+            <li><a href="https://club.onefootball.com/join?referral=samiul331" target="_blank">⚽ OneFootball</a></li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Powered by Our Awesome Team. All rights reserved. © 2024</p>
+    </footer>
+
+</body>
+</html>
